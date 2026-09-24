@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>TextFlagApp</class>
+ <widget class="QWidget" name="TextFlagApp">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>650</width>
+    <height>500</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>650</width>
+    <height>500</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>650</width>
+    <height>500</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Текстовый флаг</string>
+  </property>
+  <layout class="QVBoxLayout" name="main_layout">
+   <item>
+    <layout class="QHBoxLayout" name="stripes_layout">
+     <item>
+      <widget class="QGroupBox" name="groupBox_1">
+       <property name="title">
+        <string>Полоса 1</string>
+       </property>
+       <layout class="QVBoxLayout" name="layout_strip_1">
+        <item>
+         <widget class="QRadioButton" name="rb_strip1_white">
+          <property name="text">
+           <string>Белый</string>
+          </property>
+          <property name="checked">
+           <bool>true</bool>
+          </property>
+          <attribute name="buttonGroup">
+           <string notr="true">buttonGroup_1</string>
+          </attribute>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="rb_strip1_blue">
+          <property name="text">
+           <string>Синий</string>
+          </property>
+          <attribute name="buttonGroup">
+           <string notr="true">buttonGroup_1</string>
+          </attribute>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="rb_strip1_red">
+          <property name="text">
+           <string>Красный</string>
+          </property>
+          <attribute name="buttonGroup">
+           <string notr="true">buttonGroup_1</string>
+          </attribute>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="rb_strip1_green">
+          <property name="text">
+           <string>Зелёный</string>
+          </property>
+          <attribute name="buttonGroup">
+           <string notr="true">buttonGroup_1</string>
+          </attribute>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </item>
+     <item>
+      <widget class="QGroupBox" name="groupBox_2">
+       <property name="title">
+        <string>Полоса 2</string>
+       </property>
+       <layout class="QVBoxLayout" name="layout_strip_2">
+        <item>
+         <widget class="QRadioButton" name="rb_strip2_white">
+          <property name="text">
+           <string>Белый</string>
+          </property>
+          <property name="checked">
+           <bool>true</bool>
+          </property>
+          <attribute name="buttonGroup">
+           <string notr="true">buttonGroup_2</string>
+          </attribute>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="rb_strip2_blue">
+          <property name="text">
+           <string>Синий</string>
+          </property>
+          <attribute name="buttonGroup">
+           <string notr="true">buttonGroup_2</string>
+          </attribute>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="rb_strip2_red">
+          <property name="text">
+           <string>Красный</string>
+          </property>
+          <attribute name="buttonGroup">
+           <string notr="true">buttonGroup_2</string>
+          </attribute>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="rb_strip2_green">
+          <property name="text">
+           <string>Зелёный</string>
+          </property>
+          <attribute name="buttonGroup">
+           <string notr="true">buttonGroup_2</string>
+          </attribute>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </item>
+     <item>
+      <widget class="QGroupBox" name="groupBox_3">
+       <property name="title">
+        <string>Полоса 3</string>
+       </property>
+       <layout class="QVBoxLayout" name="layout_strip_3">
+        <item>
+         <widget class="QRadioButton" name="rb_strip3_white">
+          <property name="text">
+           <string>Белый</string>
+          </property>
+          <property name="checked">
+           <bool>true</bool>
+          </property>
+          <attribute name="buttonGroup">
+           <string notr="true">buttonGroup_3</string>
+          </attribute>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="rb_strip3_blue">
+          <property name="text">
+           <string>Синий</string>
+          </property>
+          <attribute name="buttonGroup">
+           <string notr="true">buttonGroup_3</string>
+          </attribute>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="rb_strip3_red">
+          <property name="text">
+           <string>Красный</string>
+          </property>
+          <attribute name="buttonGroup">
+           <string notr="true">buttonGroup_3</string>
+          </attribute>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="rb_strip3_green">
+          <property name="text">
+           <string>Зелёный</string>
+          </property>
+          <attribute name="buttonGroup">
+           <string notr="true">buttonGroup_3</string>
+          </attribute>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <widget class="QPushButton" name="draw_button">
+     <property name="text">
+      <string>Нарисовать</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="result_label">
+     <property name="font">
+      <font>
+       <pointsize>11</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>Выберите цвета и нажмите «Нарисовать»</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+ <buttongroups>
+  <buttongroup name="buttonGroup_1"/>
+  <buttongroup name="buttonGroup_2"/>
+  <buttongroup name="buttonGroup_3"/>
+ </buttongroups>
+</ui>
