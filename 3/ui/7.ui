@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>620</width>
+    <height>380</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Фортепиано и инструменты</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QLabel" name="lbl_piano_title">
+      <property name="text">
+       <string>Фортепиано (октава):</string>
+      </property>
+      <property name="font">
+       <font>
+        <bold>true</bold>
+       </font>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="pianoLayout">
+      <property name="spacing">
+       <number>4</number>
+      </property>
+      <item>
+       <widget class="QPushButton" name="btn_c">
+        <property name="minimumSize">
+         <size>
+          <width>60</width>
+          <height>180</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string>background-color: white; color: black; border: 2px solid #333; font-weight: bold; border-radius: 4px;</string>
+        </property>
+        <property name="text">
+         <string>До
+(C4)</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="btn_d">
+        <property name="minimumSize">
+         <size>
+          <width>60</width>
+          <height>180</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string>background-color: white; color: black; border: 2px solid #333; font-weight: bold; border-radius: 4px;</string>
+        </property>
+        <property name="text">
+         <string>Ре
+(D4)</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="btn_e">
+        <property name="minimumSize">
+         <size>
+          <width>60</width>
+          <height>180</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string>background-color: white; color: black; border: 2px solid #333; font-weight: bold; border-radius: 4px;</string>
+        </property>
+        <property name="text">
+         <string>Ми
+(E4)</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="btn_f">
+        <property name="minimumSize">
+         <size>
+          <width>60</width>
+          <height>180</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string>background-color: white; color: black; border: 2px solid #333; font-weight: bold; border-radius: 4px;</string>
+        </property>
+        <property name="text">
+         <string>Фа
+(F4)</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="btn_g">
+        <property name="minimumSize">
+         <size>
+          <width>60</width>
+          <height>180</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string>background-color: white; color: black; border: 2px solid #333; font-weight: bold; border-radius: 4px;</string>
+        </property>
+        <property name="text">
+         <string>Соль
+(G4)</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="btn_a">
+        <property name="minimumSize">
+         <size>
+          <width>60</width>
+          <height>180</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string>background-color: white; color: black; border: 2px solid #333; font-weight: bold; border-radius: 4px;</string>
+        </property>
+        <property name="text">
+         <string>Ля
+(A4)</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="btn_b">
+        <property name="minimumSize">
+         <size>
+          <width>60</width>
+          <height>180</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string>background-color: white; color: black; border: 2px solid #333; font-weight: bold; border-radius: 4px;</string>
+        </property>
+        <property name="text">
+         <string>Си
+(B4)</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="btn_c2">
+        <property name="minimumSize">
+         <size>
+          <width>60</width>
+          <height>180</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string>background-color: white; color: black; border: 2px solid #333; font-weight: bold; border-radius: 4px;</string>
+        </property>
+        <property name="text">
+         <string>До
+(C5)</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <widget class="QLabel" name="lbl_viola_title">
+      <property name="text">
+       <string>Альт (Viola):</string>
+      </property>
+      <property name="font">
+       <font>
+        <bold>true</bold>
+       </font>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="violaLayout">
+      <item>
+       <widget class="QPushButton" name="btn_v_a3">
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>45</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>Viola A3</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="btn_v_a4">
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>45</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>Viola A4</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="btn_v_a4_1">
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>45</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>Viola A4 (вар. 1)</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="btn_v_a4_2">
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>45</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>Viola A4 (вар. 2)</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="btn_v_a5">
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>45</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>Viola A5</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
